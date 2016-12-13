@@ -1,0 +1,5 @@
+yum install -y perf
+
+perf record -g -p $pid
+
+perf report -i $file

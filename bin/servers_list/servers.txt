@@ -1,0 +1,4 @@
+localhost
+serverlist1
+serverlist2
+serverlist3
