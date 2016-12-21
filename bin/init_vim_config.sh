@@ -1,7 +1,7 @@
 mkdir -p ~/.vim/bundle
 mkdir -p ~/.vim/autoload
 cp -rvf $MY_SHELL_SCRIPTS_OMG/resources/.vimrc ~/.vimrc
-cp -rvf $MY_SHELL_SCRIPTS_OMG/resourcesc/pathogen.vim ~/.vim/autoload/
+cp -rvf $MY_SHELL_SCRIPTS_OMG/resources/pathogen.vim ~/.vim/autoload/
 cd ~/.vim/bundle
 git clone https://github.com/fatih/vim-go.git
 git clone https://github.com/plasticboy/vim-markdown.git
