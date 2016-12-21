@@ -1,8 +1,6 @@
 #!/bin/bash
-if [[ -z $1 ]];then
-    echo "usage: should supply a PID"
-    exit -1
-fi
+: ${1?"Usage: '$0 \$pid' should supply a PID"}
+
 PID=$1
 DUMP_DATE=`date +%Y%m%d%H%M%S`
 DUMP_DIR=`hostname`"-"$DUMP_DATE
