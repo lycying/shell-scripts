@@ -42,6 +42,11 @@ strace_cmd.sh $pid
 
 strace的常用方式
 
+#### simple_http.sh 
+有时候你需要开启一个简单的http服务器
+
+进入目录 simple_http.sh 8080 即可
+
 ##### server_list.sh
 通过修改文件 ~/.oh-my-shell-scripts/bin/servers_list/servers.txt
 
