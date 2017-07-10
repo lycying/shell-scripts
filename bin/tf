@@ -1,0 +1,3 @@
+#!/bin/zsh
+source ~/tensorflow/bin/activate  
+echo 'source ~/tensorflow/bin/activate'
